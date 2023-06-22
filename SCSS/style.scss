@@ -102,6 +102,24 @@ progress
     width: 35px;
 }
 
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 100%;
+    box-shadow: 10px 10px 20px #20016d2b;
+    thead{
+        background-color: #1F016D;
+        color: white;
+    }
+    td{
+        padding : 10px 0 ;
+        border-bottom: 1px solid #1F016D;
+    }
+}
+
+
 
 //animations d'apparition: ajouter classe anim aux éléments à faire apparaître
 $dureeApparition:1000ms;

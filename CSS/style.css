@@ -9818,6 +9818,23 @@ progress {
   width: 35px;
 }
 
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 100%;
+  box-shadow: 10px 10px 20px rgba(32, 1, 109, 0.168627451);
+}
+.styled-table thead {
+  background-color: #1F016D;
+  color: white;
+}
+.styled-table td {
+  padding: 10px 0;
+  border-bottom: 1px solid #1F016D;
+}
+
 .anim {
   animation: apparition 1000ms 0s;
   animation-fill-mode: forwards;
